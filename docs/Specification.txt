@@ -1,0 +1,28 @@
+/v1/customer/
+/v1/customer/[customerGuid]
+/v1/customer/[customerGuid]/list/
+/v1/customer/[customerGuid]/list/[listGuid]
+/v1/customer/[customerGuid]/list/[listGuid]/item/
+/v1/customer/[customerGuid]/list/[listGuid]/item/[itemGuid]
+/v1/store/
+/v1/store/[storeGuid]
+/v1/customer/[customerGuid]/list/[listGuid]/store/[storeGuid]
+
+Customer{
+	string Guid,
+	string Name,
+	string Email
+}
+List{
+	string Guid,
+	string Name,
+	Item Items[]
+}
+Item{
+	string Guid,
+	string Name
+}
+Store{
+	string Guid,
+	string Name
+}

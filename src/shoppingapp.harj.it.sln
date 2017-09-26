@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shoppingapp.harj.it", "shoppingapp.harj.it\shoppingapp.harj.it.csproj", "{96DDD0EE-B195-4753-80D1-D9051B89482D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.shoppingapp.harj.it", "api.shoppingapp.harj.it\api.shoppingapp.harj.it.csproj", "{0D7D22FA-5CB9-43D8-9DC3-051ACDCD2B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.shoppingapp.harj.it.unittests", "api.shoppingapp.harj.it.unittests\api.shoppingapp.harj.it.unittests.csproj", "{50E0FD83-B57C-4254-9915-74D33A03FA9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "contracts.shoppingapp.harj.it", "contracts.shoppingapp.harj.it\contracts.shoppingapp.harj.it.csproj", "{06D6F395-5442-49F2-805B-92CA5126D911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.shoppingapp.harj.it.integrationtests", "api.shoppingapp.harj.it.integrationtests\api.shoppingapp.harj.it.integrationtests.csproj", "{2964A355-2504-4AA2-9994-4657F89D2273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.shoppingapp.harj.it.acceptancetests", "api.shoppingapp.harj.it.acceptancetests\api.shoppingapp.harj.it.acceptancetests.csproj", "{AD18EC7F-852A-4397-B72A-0308D068542E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96DDD0EE-B195-4753-80D1-D9051B89482D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DDD0EE-B195-4753-80D1-D9051B89482D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DDD0EE-B195-4753-80D1-D9051B89482D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DDD0EE-B195-4753-80D1-D9051B89482D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7D22FA-5CB9-43D8-9DC3-051ACDCD2B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7D22FA-5CB9-43D8-9DC3-051ACDCD2B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7D22FA-5CB9-43D8-9DC3-051ACDCD2B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7D22FA-5CB9-43D8-9DC3-051ACDCD2B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E0FD83-B57C-4254-9915-74D33A03FA9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E0FD83-B57C-4254-9915-74D33A03FA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E0FD83-B57C-4254-9915-74D33A03FA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E0FD83-B57C-4254-9915-74D33A03FA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D6F395-5442-49F2-805B-92CA5126D911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D6F395-5442-49F2-805B-92CA5126D911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D6F395-5442-49F2-805B-92CA5126D911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D6F395-5442-49F2-805B-92CA5126D911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2964A355-2504-4AA2-9994-4657F89D2273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2964A355-2504-4AA2-9994-4657F89D2273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2964A355-2504-4AA2-9994-4657F89D2273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2964A355-2504-4AA2-9994-4657F89D2273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD18EC7F-852A-4397-B72A-0308D068542E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD18EC7F-852A-4397-B72A-0308D068542E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD18EC7F-852A-4397-B72A-0308D068542E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD18EC7F-852A-4397-B72A-0308D068542E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
